@@ -30,6 +30,18 @@ namespace Labb5
             RunMenu(myStock);
             //testMEtod(myStock);
 
+            /*
+            att göra: 
+           
+            InventoryItem(myStock);
+                ->ta bort saker
+                ->finjustera
+
+            createItemMenu();
+            
+
+            */
+
 
         }
 
@@ -228,7 +240,7 @@ namespace Labb5
                 }
                 catch (System.Exception)
                 {
-                    Console.WriteLine("Något är fel!");
+                    Console.WriteLine("error arr Eco-Certificate, please select EG of Krav");
                     EcoStockitem.stockCount--; //Gör en metod av det här!
                 }
             }

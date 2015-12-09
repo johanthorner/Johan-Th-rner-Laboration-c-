@@ -1,0 +1,52 @@
+Vad är en identifierare?
+	
+	Ett namn på exempelvis en variabel, klass eller metod.
+
+Hur får en identifierare se ut?
+	
+	Får inte vara ett nyckelord.
+	får inte börja med en siffra.
+	_ kan användas.
+	@ kan inleda en identifierare, möjliggör användandet av ett nyckeord.
+
+
+Vad är camel case och pascal case?
+	
+	-camel case är när man namnger efter den här modellen: myNewVarable
+		dvs första bokstaven liten sedan stor bokstav i varge nytt ord.
+	-pascal case: MyNewVariable
+		varge ord börjar med storbokstav
+
+Vad är nyckelord?
+	
+	-De ord som är reserverade för programeringspråket exempelvs float, string osv. 
+
+Vad innebär det att C# är case sensitive?
+	
+	- att det spelar roll om du använder stora eller små bokstäver när du namnger saker.
+
+Kompilatorn struntar i s.k. whitespace, men för tydlighetens skulle bör alltid källkod formatteras för maximal läsbarhet. Nämn ett par olika typer av whitespace.
+	
+	-ny rad, blanksteg , tab
+
+Vilket tecken används för att avsluta ("terminera") ett uttryck?
+	
+	-;
+
+Flera uttryck kan grupperas tillsammans till ett s.k. block, t.ex. för att utföras tillsammans om ett villkor är uppfyllt. Hur grupperas uttryck?
+	
+	-{}
+
+När bör källkod kommenteras? Vilka olika kommentarstyper finns, och hur anges de?
+	
+	Man ska inte behöva kommentera variabler eller metoder utan de ska 
+	namnges så att de förklarar sig själva.
+
+
+	// skapar en kommentar på en rad
+
+	/* skapar en kommentar som går över flera rader */
+
+	  /// <summary>
+        /// skapar en kommetar som ger information om en metod
+        /// </summary>

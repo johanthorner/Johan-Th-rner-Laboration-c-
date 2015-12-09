@@ -1,0 +1,36 @@
+Vad står CLR för, och vad används den till?
+
+	Det står för Common Language runtime
+	och är den del i .Net ramverket som ser till att kod 
+	skriven i c# eller annat .Net programeringspråk
+	överstätts till maskinkod som kan förstås av datorn.
+	CLR består av Garbage collector, JIT-Compiler och base class library 
+
+Vad är BCL?
+	Base class library
+	Är en samling klasser som man kan använda i sitt program för att
+	göra olika saker.	
+
+Vad innebär det att kompilera källkod?
+
+	Att omvandla kod skiriven i ett programmeringspråk som c# till ett maskinanpassat språk.
+
+Den första kompileringen av källkod genererar en assembly i CIL-format. Vad står CIL för?
+	
+	Common Intermediate Language
+
+Vad kallas den andra kompileringen, dvs den som tar en assembly på CIL-format och omvandlar till maskinkod?
+Här bör du känna till både förkortning och vad den står för.
+När sker denna kompilering normalt?
+	
+	Just in time (JIT) compilation omvandlar asemblyn till maskin-kod.
+	JIT kompilatorn kompilerar den kod som behövs för att starta programmet.
+	Den kan sedan återanvända den koden utan att behöva 
+	kompilera den igen. 
+
+Nämn en fördel och en nackdel med att .NET-program körs i en runtime-miljö.
+
+	Ett språk som för-kompileras är snabbare än ett scriptspråk som kompileras
+	direkt när det körs.
+	
+	Nackdelen med runtime- miljön är att de är mer platformsberoende.
