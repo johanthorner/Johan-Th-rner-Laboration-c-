@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,10 +29,14 @@ namespace Labb5
         public Juice(string markning, int id, string name, string type ) : base(markning,id,name)
         {
             
-            Markning = markning;
-            Id = id;
-            Name = name;
+           
             Type = type;
+        }
+
+        public Juice(Juice juice, string markning, int id, string name, string type) : this(markning, id,  name, type)
+        {
+            
+            //Markning = juice.markning;
         }
         public override string ToString() 
         {
